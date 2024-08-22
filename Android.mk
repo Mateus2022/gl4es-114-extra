@@ -97,7 +97,7 @@ LOCAL_CFLAGS += -g -funwind-tables -fvisibility=hidden -include include/android_
 #LOCAL_CFLAGS += -Ofast -funsafe-math-optimizations -funroll-loops -frename-registers -fomit-frame-pointer -fgcse-las -fgcse-las -funswitch-loops -fweb
 LOCAL_CFLAGS += -DNOX11
 LOCAL_CFLAGS += -DNO_GBM
-LOCAL_CFLAGS += -DDEFAULT_ES=3
+LOCAL_CFLAGS += -DDEFAULT_ES=2
 #LOCAL_CFLAGS += -DNO_INIT_CONSTRUCTOR
 #LOCAL_CFLAGS += -DDEFAULT_ES=2
 
